@@ -13,6 +13,7 @@
 		6F2641F51F3B2C9300F9D29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2641F31F3B2C9300F9D29E /* Main.storyboard */; };
 		6F2641F71F3B2C9300F9D29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2641F61F3B2C9300F9D29E /* Assets.xcassets */; };
 		6F2641FA1F3B2C9300F9D29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2641F81F3B2C9300F9D29E /* LaunchScreen.storyboard */; };
+		6F2642041F3B2CD600F9D29E /* CZLocalizedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2642031F3B2CD600F9D29E /* CZLocalizedHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6F2641F61F3B2C9300F9D29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F2641F91F3B2C9300F9D29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F2641FB1F3B2C9300F9D29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2642021F3B2CD600F9D29E /* CZLocalizedHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLocalizedHelper.h; sourceTree = "<group>"; };
+		6F2642031F3B2CD600F9D29E /* CZLocalizedHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLocalizedHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6F2641E91F3B2C9300F9D29E /* CZLocalizedHelperDemo */,
+				6F2642011F3B2CD600F9D29E /* CZLocalizedHelper */,
 				6F2641E81F3B2C9300F9D29E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6F2641EB1F3B2C9300F9D29E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F2642011F3B2CD600F9D29E /* CZLocalizedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6F2642021F3B2CD600F9D29E /* CZLocalizedHelper.h */,
+				6F2642031F3B2CD600F9D29E /* CZLocalizedHelper.m */,
+			);
+			path = CZLocalizedHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				6F2641F21F3B2C9300F9D29E /* ViewController.m in Sources */,
 				6F2641EF1F3B2C9300F9D29E /* AppDelegate.m in Sources */,
+				6F2642041F3B2CD600F9D29E /* CZLocalizedHelper.m in Sources */,
 				6F2641EC1F3B2C9300F9D29E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
